@@ -20,12 +20,9 @@ div p {
   outline-width: 2px;
   outline-color: #000000; }
 
-{
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
+header h2{
+  padding-top: 15vh;
+  padding-bottom: 5vh;
 
   }
 
