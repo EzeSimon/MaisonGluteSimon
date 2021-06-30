@@ -68,14 +68,15 @@ div p {
   align-items: center;
   column-gap: 100px; }
 
-.container__kitsmaison--carrousel {
+.container__kitsmaison--carrousel{
   display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 250px;
+  grid-template-columns: 350px;
+  grid-template-rows: 300px 300px;
   justify-content: center;
   align-items: center;
-  column-gap: 50px;
-  grid-row-gap: 100px; }
+  column-gap: 50px; 
+
+}
 
 .transform:hover {
   transform: translateY(-10px);
