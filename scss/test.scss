@@ -4,6 +4,14 @@ $cmaison:#f0a016;
 $black:#000000;
 $whitemaison:#ffffff;
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
 
 /*import*/
 
@@ -54,6 +62,12 @@ header{
 
 	}
 }
+
+header{
+	h3{
+		padding-top: 15vh;
+	}
+}
 /*clases*/
 
 .productos__imagen--size{
@@ -88,8 +102,9 @@ header{
   display: inline-flex;
   justify-content: center;
   align-content: center;
-  padding-top: 200px;
-  margin-top: 200px; 
+  padding-top: 100px;
+  padding-bottom: 15vh;
+  margin-top: 0px; 
 
 }
 
@@ -167,7 +182,8 @@ header{
 
 .parrafos__body--texto{
   display: flex;
-  color: #ffffff;
+  color: $whitemaison;
+  padding-top: 0,5vh;
   padding-bottom: 2vh;
   justify-content: center;
   align-items: center;

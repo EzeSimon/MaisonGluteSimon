@@ -20,23 +20,23 @@ div p {
   outline-width: 2px;
   outline-color: #000000; }
 
-header h2{
+header h2 {
   padding-top: 15vh;
   padding-bottom: 5vh;
-  font-size: 2em;
-  color:#000000;
+  font-size: em;
+  color: #000000; }
 
-  }
+header h3 {
+  padding-top: 15vh; }
 
 /*clases*/
 .productos__imagen--size, .panificados__imagen--size {
   width: 250px;
   height: 250px; }
 
-.kits__imagen--size{
+.kits__imagen--size {
   width: 400px;
-  height: 400px;
-}
+  height: 400px; }
 
 .panificados__imagen--size {
   border-width: 3px;
@@ -45,8 +45,7 @@ header h2{
 
 .body--fondo {
   background-image: url(../imagenes/fondo2.jpg);
-  margin: 0;
- }
+  margin: 0; }
 
 .footer__redes--size {
   width: 25px;
@@ -56,8 +55,9 @@ header h2{
   display: inline-flex;
   justify-content: center;
   align-content: center;
-  padding-top: 200px;
-  margin-top: 200px; }
+  padding-top: 100px;
+  padding-bottom: 15vh;
+  margin-top: 0px; }
 
 .quienes__video--position {
   display: flex;
@@ -70,8 +70,7 @@ header h2{
   display: block;
   align-items: center;
   justify-content: center;
-  margin-top: 20vh;
-  }
+  margin-top: 20vh; }
 
 .containerPanificados {
   display: grid;
@@ -90,15 +89,13 @@ header h2{
   align-items: center;
   column-gap: 100px; }
 
-.container__kitsmaison--carrousel{
+.container__kitsmaison--carrousel {
   display: grid;
   grid-template-columns: 400px;
   grid-template-rows: 400px;
   justify-content: center;
   align-items: center;
-  column-gap: 50px; 
-
-}
+  column-gap: 50px; }
 
 .transform:hover {
   transform: translateY(-10px);
@@ -121,24 +118,14 @@ header h2{
   background-image: url("imagenes/fondo2.jpg");
   width: 100vw; }
 
-.parrafos__body--texto{
+.parrafos__body--texto {
   display: flex;
-  padding-top: 0,2vh;
-  padding-bottom: 1vh;
   color: #ffffff;
+  padding-top: 0,5vh;
+  padding-bottom: 2vh;
   justify-content: center;
   align-items: center;
   outline-width: 3px;
-  outline-color: #000000;
-}
+  outline-color: #000000; }
 
-.container__textos--general{
-  width: 50vw;
-  height: 2vh:;
-  display: flex;
-  padding-bottom: 0,5vh;
-  justify-content: center;
-  align-items: center;
-  
-}
-
+/*id*/
