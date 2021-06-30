@@ -91,6 +91,13 @@ div{
     margin-bottom: 15vh;
 }
 
+.container__kitsmaison--carrousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  }
+
 .containerPanificados{
 	display: grid;
 	grid-template-columns: 200px 200px 200px;
