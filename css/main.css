@@ -25,6 +25,11 @@ div p {
   width: 250px;
   height: 250px; }
 
+.kits__imagen--size{
+  width: 400px;
+  height: 400px;
+}
+
 .panificados__imagen--size {
   border-width: 3px;
   border-style: solid;
