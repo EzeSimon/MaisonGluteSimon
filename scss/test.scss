@@ -49,8 +49,8 @@ header{
 	h2{
 	padding-top: 15vh;
     padding-bottom: 5vh;
-    font-size: 1em;
-    color:$whitemaison;
+    font-size: 2em;
+    color:$black;
 
 	}
 }
@@ -76,6 +76,7 @@ header{
 
 .body--fondo{
 	background-image: url(../imagenes/fondo2.jpg);
+	margin:0;
 }
 
 .footer__redes--size{
@@ -162,5 +163,13 @@ header{
 	background-image: url("imagenes/fondo2.jpg");
 	width: 100vw;
 	
+}
+
+.parrafos__body--texto{
+  display: flex;
+  padding-top: 0,2vh;
+  padding-bottom: 1vh;
+  justify-content: center;
+  align-items: center;
 }
 /*id*/

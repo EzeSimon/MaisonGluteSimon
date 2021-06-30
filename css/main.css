@@ -23,8 +23,8 @@ div p {
 header h2{
   padding-top: 15vh;
   padding-bottom: 5vh;
-  font-size: 1em;
-  color:$whitemaison;
+  font-size: 2em;
+  color:#000000;
 
   }
 
@@ -44,7 +44,9 @@ header h2{
   border-color: #000000; }
 
 .body--fondo {
-  background-image: url(../imagenes/fondo2.jpg); }
+  background-image: url(../imagenes/fondo2.jpg);
+  margin: 0;
+ }
 
 .footer__redes--size {
   width: 25px;
@@ -118,4 +120,25 @@ header h2{
 .fondoWeb {
   background-image: url("imagenes/fondo2.jpg");
   width: 100vw; }
+
+.parrafos__body--texto{
+  display: flex;
+  padding-top: 0,2vh;
+  padding-bottom: 1vh;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  outline-width: 3px;
+  outline-color: #000000;
+}
+
+.container__textos--general{
+  width: 50vw;
+  height: 2vh:;
+  display: flex;
+  padding-bottom: 0,5vh;
+  justify-content: center;
+  align-items: center;
+  
+}
 
