@@ -23,6 +23,8 @@ div p {
 header h2{
   padding-top: 15vh;
   padding-bottom: 5vh;
+  font-size: 1em;
+  color:$whitemaison;
 
   }
 
