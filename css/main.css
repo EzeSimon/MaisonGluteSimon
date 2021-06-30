@@ -20,6 +20,15 @@ div p {
   outline-width: 2px;
   outline-color: #000000; }
 
+header h2{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+
+  }
+
 /*clases*/
 .productos__imagen--size, .panificados__imagen--size {
   width: 250px;
