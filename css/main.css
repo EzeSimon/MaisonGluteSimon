@@ -68,6 +68,15 @@ div p {
   align-items: center;
   column-gap: 100px; }
 
+.container__kitsmaison--carrousel {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 250px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  grid-row-gap: 100px; }
+
 .transform:hover {
   transform: translateY(-10px);
   transition: transform 0.5s;
