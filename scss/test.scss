@@ -45,6 +45,15 @@ div{
 		outline-color: $black;
 	}
 }
+header{
+	h2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2em;
+
+	}
+}
 /*clases*/
 
 .productos__imagen--size{
