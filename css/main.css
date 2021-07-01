@@ -77,12 +77,6 @@ header div h3 {
   width: 560px;
   height: 315px; }
 
-.container__kitsmaison--carrousel {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20vh; }
-
 .containerPanificados {
   display: grid;
   grid-template-columns: 200px 200px 200px;
@@ -99,14 +93,6 @@ header div h3 {
   justify-content: center;
   align-items: center;
   column-gap: 100px; }
-
-.container__kitsmaison--carrousel {
-  display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 400px;
-  justify-content: center;
-  align-items: center;
-  column-gap: 50px; }
 
 .transform:hover {
   transform: translateY(-10px);

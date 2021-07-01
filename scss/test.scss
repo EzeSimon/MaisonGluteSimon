@@ -84,6 +84,7 @@ header{
 .productos__imagen--size{
 	width: 250px;
 	height: 250px;
+	
 }
 
 .kits__imagen--size{
@@ -132,12 +133,7 @@ header{
 	height: 315px;
 }
 
-.container__kitsmaison--carrousel {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20vh;
-  }
+
 
 .containerPanificados{
 	display: grid;
@@ -159,15 +155,9 @@ header{
   column-gap: 100px;
 	
 }
-.container__kitsmaison--carrousel{
-  display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 400px;
-  justify-content: center;
-  align-items: center;
-  column-gap: 50px; 
 
-}
+
+
 .transform:hover{
 			transform: translateY(-10px);
 			transition: transform 0.5s;
@@ -207,4 +197,6 @@ header{
   outline-width: 3px;
   outline-color: $black;
 }
+
+
 /*id*/
